@@ -30,3 +30,11 @@ C:\Projects\Server\obj\Debug\netcoreapp3.1\Server.dll
 C:\Projects\Server\obj\Debug\netcoreapp3.1\Server.pdb
 C:\Projects\Server\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache
 C:\Projects\Server\obj\Debug\netcoreapp3.1\Server.csproj.CopyComplete
+C:\Projects\Server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projects\Server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projects\Server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Projects\Server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Projects\Server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projects\Server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Projects\Server\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projects\Server\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
