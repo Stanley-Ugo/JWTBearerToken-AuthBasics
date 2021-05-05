@@ -1,5 +1,4 @@
-﻿using AuthBasics.CustomPolicyProvider;
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -25,7 +24,7 @@ namespace Server.Controllers
 
         public IActionResult Authenticate()
         {
-            
+            return View("Index");
         }
 
     }
