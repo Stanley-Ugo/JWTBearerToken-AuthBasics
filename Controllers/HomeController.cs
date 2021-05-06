@@ -46,6 +46,7 @@ namespace Server.Controllers
             //Signin Credentials
             var signInCredentials = new SigningCredentials(key, algorithm);
 
+            //creating the token
             var token = new JwtSecurityToken(
                 Constants.Issuer,
                 Constants.Audience,
