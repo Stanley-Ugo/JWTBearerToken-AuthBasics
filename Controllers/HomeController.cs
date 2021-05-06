@@ -19,11 +19,13 @@ namespace Server.Controllers
         [Authorize]
         public IActionResult Secret()
         {
+
             return View();
         }
 
         public IActionResult Authenticate()
         {
+
             return View("Index");
         }
 
