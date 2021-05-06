@@ -25,7 +25,6 @@ namespace Server.Controllers
 
         public IActionResult Authenticate()
         {
-
             return View("Index");
         }
 
