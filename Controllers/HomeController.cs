@@ -13,6 +13,7 @@ namespace Server.Controllers
     {
         public IActionResult Index()
         {
+
             return View();
         }
 
