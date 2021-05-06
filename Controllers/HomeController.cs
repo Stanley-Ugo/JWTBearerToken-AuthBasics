@@ -59,6 +59,7 @@ namespace Server.Controllers
             //Handling the token to be transferable
             var tokenJson = new JwtSecurityTokenHandler().WriteToken(token);
 
+
             return Ok(new { access_token = tokenJson });
         }
 
