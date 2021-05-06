@@ -43,6 +43,7 @@ namespace Server.Controllers
             //Using the Sha256 Algorithm
             var algorithm = SecurityAlgorithms.HmacSha256;
 
+            //Signin Credentials
             var signInCredentials = new SigningCredentials(key, algorithm);
 
             var token = new JwtSecurityToken(
