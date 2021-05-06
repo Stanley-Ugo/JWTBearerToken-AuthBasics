@@ -27,6 +27,7 @@ namespace Server.Controllers
 
         public IActionResult Authenticate()
         {
+            //Setting up the claims
             var claims = new[]
             {
                 new Claim(JwtRegisteredClaimNames.Sub, "some_id"),
