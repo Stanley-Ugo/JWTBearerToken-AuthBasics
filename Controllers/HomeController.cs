@@ -34,6 +34,7 @@ namespace Server.Controllers
                 new Claim("granny", "cookie")
             };
 
+            //Getting the secret key and converting to bytes
             var secretBytes = Encoding.UTF8.GetBytes(Constants.Secret);
 
             var key = new SymmetricSecurityKey(secretBytes);
