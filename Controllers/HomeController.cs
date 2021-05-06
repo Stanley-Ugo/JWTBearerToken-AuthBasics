@@ -63,6 +63,7 @@ namespace Server.Controllers
             return Ok(new { access_token = tokenJson });
         }
 
+        //Decodes the part of the passed in token
         public IActionResult Decode(string part)
         {
             var bytes = Convert.FromBase64String(part);
