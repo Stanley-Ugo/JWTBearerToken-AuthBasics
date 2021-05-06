@@ -35,7 +35,6 @@ namespace Server
 
             app.UseRouting();
 
-            //who are you
             app.UseAuthentication();
 
             //Are You Allowed to go here?
