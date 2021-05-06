@@ -37,7 +37,6 @@ namespace Server
 
             app.UseAuthentication();
 
-            //Are You Allowed to go here?
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
