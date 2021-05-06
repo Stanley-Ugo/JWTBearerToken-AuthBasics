@@ -19,6 +19,7 @@ namespace Server.Controllers
         [Authorize]
         public IActionResult Secret()
         {
+
             return View();
         }
 
