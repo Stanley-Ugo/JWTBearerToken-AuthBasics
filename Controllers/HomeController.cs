@@ -40,6 +40,7 @@ namespace Server.Controllers
             //Keys
             var key = new SymmetricSecurityKey(secretBytes);
 
+            //Using the Sha256 Algorithm
             var algorithm = SecurityAlgorithms.HmacSha256;
 
             var signInCredentials = new SigningCredentials(key, algorithm);
