@@ -18,7 +18,9 @@ namespace Server.Controllers
         public IActionResult Authorize(string response_type, string client_id, string redirect_uri, string scope, string state)
         {
             var query = new QueryBuilder();
+
             query.Add("redirectUri", redirect_uri);
+
             query.Add("state", state);
 
             return View(model: query.ToString());
