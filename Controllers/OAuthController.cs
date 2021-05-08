@@ -20,7 +20,7 @@ namespace Server.Controllers
         }
 
         [HttpPost]
-        public IActionResult Authorize(string username, string response_type, string client_id, string redirect_uri, string scope, string state)
+        public IActionResult Authorize(string username, string redirect_uri, string state)
         {
             return View();
         }
