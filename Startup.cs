@@ -20,7 +20,7 @@ namespace Server
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAuthentication("OAuth")
-                .AddJwtBearer("OAuth", config => 
+                .AddJwtBearer("OAuth", config =>  
                 {
                     var secretBytes = Encoding.UTF8.GetBytes(Constants.Secret);
 
