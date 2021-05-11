@@ -34,7 +34,6 @@ namespace Server
                             {
                                 context.Token = context.Request.Query["access_token"];
                             }
-
                             return Task.CompletedTask;
                         }
                     };
