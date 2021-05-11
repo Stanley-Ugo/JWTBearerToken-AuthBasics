@@ -42,7 +42,7 @@ namespace Server
                     config.TokenValidationParameters = new TokenValidationParameters()
                     {
                         ValidIssuer = Constants.Issuer,
-                        ValidAudience = Constants.Audience,
+                        ValidAudience = Constants.Audience, 
                         IssuerSigningKey = key,
                     };
                 });
