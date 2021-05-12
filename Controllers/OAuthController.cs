@@ -25,8 +25,7 @@ namespace Server.Controllers
 
             return View(model: query.ToString());
         }
-
-
+    
         [HttpPost]
         public IActionResult Authorize(string username, string redirectUri, string state)
         {
