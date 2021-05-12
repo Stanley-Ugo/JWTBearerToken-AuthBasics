@@ -9,6 +9,7 @@ namespace Server.Controllers
 {
     public class OAuthController : Controller
     {
+
         public IActionResult Index()
         {
             return View();
