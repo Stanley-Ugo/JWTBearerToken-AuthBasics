@@ -14,6 +14,7 @@ namespace Server.Controllers
             return View();
         }
 
+
         [HttpGet]
         public IActionResult Authorize(string response_type, string client_id, string redirect_uri, string scope, string state)
         {
